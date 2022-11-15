@@ -1,0 +1,12 @@
+/* CSS for Social Media Wall */ 
+
+/* Main Body Styling */
+
+#Square_Main {
+  background-color: grey;
+  height: 500px;
+}
+
+h2 {
+    text-align: center;
+}
