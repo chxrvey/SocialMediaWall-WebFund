@@ -4,9 +4,44 @@
 
 #Square_Main {
   background-color: grey;
-  height: 500px;
+  height: 550px;
 }
 
 h2 {
     text-align: center;
+    padding: 20px;
 }
+
+/*Social Media Block One */ 
+
+ #Square_SM1 {
+    background-color: darkgrey;
+    height: 400px; 
+    width: 400px;
+    position: absolute;
+    left:125px;
+ }
+
+ #text_1 {
+    position: absolute;
+    top: 350px;
+    left: 15px;
+    color: white;
+ }
+
+ /* Social Media Block two */ 
+
+ #Square_SM2 {
+    background-color: darkgrey;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    right:125px;
+ }
+
+ #text_2 {
+    position: absolute;
+    top: 350px;
+    left: 15px;
+    color:white;
+ }
