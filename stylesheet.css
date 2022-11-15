@@ -2,9 +2,8 @@
 
 /* Main Body Styling */
 
-#Square_Main {
-  background-color: grey;
-  height: 550px;
+body {
+  background-color: #555555;
 }
 
 h2 {
@@ -19,18 +18,18 @@ h2 {
 /*Social Media Block One */ 
 
  #Square_SM1 {
-    background-color: darkgrey;
-    height: 400px; 
-    width: 400px;
+    background-color: #333333;
+    height: 600px; 
+    width: 450px;
     position: absolute;
     left:125px;
     border-radius: 10px;
-    box-shadow: 0 0 15px 10px #6B695E;
+    box-shadow: 0 0 15px 10px #111111;
  }
 
  #text_1 {
     position: absolute;
-    top: 350px;
+    top: 540px;
     left: 15px;
     color: white;
     font-family: "kanit", serif;
@@ -39,18 +38,18 @@ h2 {
  /* Social Media Block two */ 
 
  #Square_SM2 {
-    background-color: darkgrey;
-    height: 400px;
-    width: 400px;
+    background-color: #333333;
+    height: 600px;
+    width: 450px;
     position: absolute;
     right:125px;
     border-radius: 10px;
-    box-shadow: 0 0 15px 10px #6B695E;
+    box-shadow: 0 0 15px 10px #111111;
  }
 
  #text_2 {
     position: absolute;
-    top: 350px;
+    top: 540px;
     left: 15px;
     color:white;
     font-family: "kanit", serif;
