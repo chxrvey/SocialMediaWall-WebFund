@@ -3,54 +3,122 @@
 /* Main Body Styling */
 
 body {
-  background-color: #555555;
+   background-color: #555555;
+ }
+
+ /* Tablet screen Optimised */ 
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+
+    
+    h2 {
+        text-align: center;
+        padding: 20px;
+        font-family: "kanit", serif;
+        font-size: 30px;
+        color: white;
+        text-shadow: 0 0 10px #6B695E;
+    }
+    
+    /*Social Media Block One */ 
+    
+     #Square_SM1 {
+        background-color: #333333;
+        height: 600px; 
+        width: 450px;
+        position: absolute;
+        left:125px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px 10px #111111;
+     }
+    
+     #text_1 {
+        position: absolute;
+        top: 540px;
+        left: 15px;
+        color: white;
+        font-family: "kanit", serif;
+     }
+    
+     /* Social Media Block two */ 
+    
+     #Square_SM2 {
+        background-color: #333333;
+        height: 600px;
+        width: 450px;
+        position: absolute;
+        right:125px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px 10px #111111;
+     }
+    
+     #text_2 {
+        position: absolute;
+        top: 540px;
+        left: 15px;
+        color:white;
+        font-family: "kanit", serif;
+     }
+
 }
 
-h2 {
-    text-align: center;
-    padding: 20px;
-    font-family: "kanit", serif;
-    font-size: 30px;
-    color: white;
-    text-shadow: 0 0 10px #6B695E;
+/* Nomral Monitor Optimisation */ 
+
+@media screen and (min-width: 1400px) and (max-width:1900px) {
+
+    
+    h2 {
+        text-align: center;
+        padding: 20px;
+        font-family: "kanit", serif;
+        font-size: 30px;
+        color: white;
+        text-shadow: 0 0 10px #6B695E;
+    }
+    
+    /*Social Media Block One */ 
+    
+     #Square_SM1 {
+        background-color: #333333;
+        height: 750px; 
+        width: 750px;
+        position: absolute;
+        left:125px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px 10px #111111;
+     }
+    
+     #text_1 {
+        position: absolute;
+        top: 680px;
+        left: 15px;
+        color: white;
+        font-family: "kanit", serif;
+     }
+    
+     /* Social Media Block two */ 
+    
+     #Square_SM2 {
+        background-color: #333333;
+        height: 750px;
+        width: 750px;
+        position: absolute;
+        right:125px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px 10px #111111;
+     }
+    
+     #text_2 {
+        position: absolute;
+        top: 680px;
+        left: 15px;
+        color:white;
+        font-family: "kanit", serif;
+     }
+
 }
 
-/*Social Media Block One */ 
+ 
 
- #Square_SM1 {
-    background-color: #333333;
-    height: 600px; 
-    width: 450px;
-    position: absolute;
-    left:125px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px 10px #111111;
- }
 
- #text_1 {
-    position: absolute;
-    top: 540px;
-    left: 15px;
-    color: white;
-    font-family: "kanit", serif;
- }
-
- /* Social Media Block two */ 
-
- #Square_SM2 {
-    background-color: #333333;
-    height: 600px;
-    width: 450px;
-    position: absolute;
-    right:125px;
-    border-radius: 10px;
-    box-shadow: 0 0 15px 10px #111111;
- }
-
- #text_2 {
-    position: absolute;
-    top: 540px;
-    left: 15px;
-    color:white;
-    font-family: "kanit", serif;
- }
+ /* VW = Viewport Width */ 
