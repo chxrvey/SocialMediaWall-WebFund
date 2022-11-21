@@ -4,11 +4,12 @@
 
 body {
    background-color: #555555;
+   width: auto;
  }
 
  /* Tablet screen Optimised */ 
 
-@media screen and (min-width: 1200px) and (max-width: 1400px) {
+@media screen and (min-width: 1200px) and (max-width: 1500px) {
 
     
     h2 {
@@ -25,9 +26,9 @@ body {
      #Square_SM1 {
         background-color: #333333;
         height: 600px; 
-        width: 450px;
+        width: auto;
         position: absolute;
-        left:125px;
+        margin-left: 10px;
         border-radius: 10px;
         box-shadow: 0 0 15px 10px #111111;
      }
