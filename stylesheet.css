@@ -64,7 +64,7 @@ body {
 
 /* Nomral Monitor Optimisation */ 
 
-@media screen and (min-width: 1400px) and (max-width:1900px) {
+@media screen and (min-width: 1500px) and (max-width:2000px) {
 
     
     h2 {
@@ -80,8 +80,8 @@ body {
     
      #Square_SM1 {
         background-color: #333333;
-        height: 750px; 
-        width: 750px;
+        height: 600px; 
+        width: 600px;
         position: absolute;
         left:125px;
         border-radius: 10px;
@@ -90,7 +90,7 @@ body {
     
      #text_1 {
         position: absolute;
-        top: 680px;
+        top: 540px;
         left: 15px;
         color: white;
         font-family: "kanit", serif;
@@ -100,8 +100,8 @@ body {
     
      #Square_SM2 {
         background-color: #333333;
-        height: 750px;
-        width: 750px;
+        height: 600px;
+        width: 600px;
         position: absolute;
         right:125px;
         border-radius: 10px;
@@ -110,7 +110,7 @@ body {
     
      #text_2 {
         position: absolute;
-        top: 680px;
+        top: 540px;
         left: 15px;
         color:white;
         font-family: "kanit", serif;
