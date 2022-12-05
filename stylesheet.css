@@ -117,6 +117,16 @@ body {
         font-family: "kanit", serif;
      }
 
+     /* Table Centering */ 
+
+     table {
+      margin: auto;
+     }
+
+     td {
+      color: #fff;
+     }
+
 }
 
  
