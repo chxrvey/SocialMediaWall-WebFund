@@ -1,23 +1,20 @@
-
+/* Add a new row everytime the Display button is clicked */ 
 function addRow() {
 
-    let response = JSON.parse(JSONString);
+    let response = JSOresponse;
     var table = document.getElementsByTagName('table')[0];
 
     var newRow = table.insertRow(0);
     
     var cell = newRow.insertCell(0);
-    cell.innerHTML = request.responseText;
+    cell.innerHTML = request.JSOresponse;
 
-    // for (i=0; i < JSOresponse.length; +ii) {
-    //     console.log(JSOresponse)
-    // }
-
-    // JSOresponse.forEach(function (JSOresponse, id, array) {
-    //     console.log(array[i])
-    // })
+    JSOresponse.forEach(function (stipe,posts, index){
+        console.log(posts, index);
+})
 }
 
+/* API data */ 
 
 let JSONonstipe = [{
     "stipe": {
@@ -41,23 +38,18 @@ let JSONonstipe = [{
 }];
 
 
-JSONonstipe.forEach(function (stipe, index){
-    console.log(stipe, index)
-})
+/* converting the API Data to Javascript */ 
 
+// let JSONString = JSON.stringify(JSONonstipe)
+// console.log(JSONString)
+// let JSOresponse = JSON.parse(JSONString)
+// console.log(JSOresponse)
 
+// console.log(JSON.stringify(JSOresponse))
 
-
-let JSONString = JSON.stringify(JSONonstipe)
-console.log(JSONString)
-let JSOresponse = JSON.parse(JSONString)
-console.log(JSOresponse)
-
-console.log(JSON.stringify(JSOresponse))
-
-// JSOresponse.forEach(function (responseJS, index){
-//    console.log('index: ' + index, responseJR)
-//})
+// console.log(JSONonstipe.filter(item => {
+//     return item.posts === '1';
+// }));
 
 let request = new XMLHttpRequest()
 request.open('GET','https://onstipe.com/web/api/json/6807?key=05c897a699e307e8062db524932e687d', true)
@@ -67,6 +59,11 @@ request.onload = () => {
 }
 request.send()
 
+console.log('found', found[0]);
+
+let responseText = (result)
+
+/* pre loads the text of page before the images etc and does not disrupt the code */ 
 
 document.addEventListener('DOMContentLoaded', () => {
     console.log('page Loaded')
@@ -74,7 +71,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 let button = document.getElementById("btn1")
 
-var output = JSOresponse;
+
+/* BS code I may not need */ 
 
 // button.onclick = () => {
 //     console.log("button pressed")

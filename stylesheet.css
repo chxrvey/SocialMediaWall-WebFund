@@ -3,7 +3,7 @@
 /* Main Body Styling */
 
 body {
-   background-color: #555555;
+   background-color: #fff;
    width: auto;
  }
 
@@ -17,55 +17,36 @@ body {
         padding: 20px;
         font-family: "kanit", serif;
         font-size: 30px;
-        color: white;
-        text-shadow: 0 0 10px #6B695E;
+        color: Black;
+        text-shadow: 0 0 10px grey;
     }
     
     /*Social Media Block One */ 
     
      #Square_SM1 {
-        background-color: #333333;
+        background-color: whitesmoke;
         height: 600px; 
         width: auto;
         position: absolute;
         margin-left: 10px;
         border-radius: 10px;
-        box-shadow: 0 0 15px 10px #111111;
+        box-shadow: 0 0 15px 10px grey;
      }
     
      #text_1 {
         position: absolute;
         top: 540px;
         left: 15px;
-        color: white;
+        color: black;
         font-family: "kanit", serif;
      }
     
-     /* Social Media Block two */ 
-    
-     #Square_SM2 {
-        background-color: #333333;
-        height: 600px;
-        width: 450px;
-        position: absolute;
-        right:125px;
-        border-radius: 10px;
-        box-shadow: 0 0 15px 10px #111111;
-     }
-    
-     #text_2 {
-        position: absolute;
-        top: 540px;
-        left: 15px;
-        color:white;
-        font-family: "kanit", serif;
-     }
 
 }
 
 /* Nomral Monitor Optimisation */ 
 
-@media screen and (min-width: 1500px) and (max-width:2000px) {
+/* @media screen and (min-width: 1500px) and (max-width:2000px) { */
 
     
     h2 {
@@ -73,49 +54,35 @@ body {
         padding: 20px;
         font-family: "kanit", serif;
         font-size: 30px;
-        color: white;
-        text-shadow: 0 0 10px #6B695E;
+        color: black;
+        text-shadow: 0 0 10px grey;
     }
     
     /*Social Media Block One */ 
     
-     #Square_SM1 {
-        background-color: #333333;
+      #Square_SM1 {
+        background-color: whitesmoke;
         height: 600px; 
         width: 600px;
-        position: absolute;
-        left:125px;
+        margin:auto;
+        /* position: fixed;
+        left:50%;
+        right:50%;*/
         border-radius: 10px;
-        box-shadow: 0 0 15px 10px #111111;
+        box-shadow: 0 0 15px 10px grey;
      }
     
      #text_1 {
-        position: absolute;
-        top: 540px;
-        left: 15px;
-        color: white;
-        font-family: "kanit", serif;
-     }
+      position: absolute;
+      top: 680px;
+      margin: auto;
+      color: black;
+      font-family: "kanit", serif;
+   }
+  
     
-     /* Social Media Block two */ 
+
     
-     #Square_SM2 {
-        background-color: #333333;
-        height: 600px;
-        width: 600px;
-        position: absolute;
-        right:125px;
-        border-radius: 10px;
-        box-shadow: 0 0 15px 10px #111111;
-     }
-    
-     #text_2 {
-        position: absolute;
-        top: 540px;
-        left: 15px;
-        color:white;
-        font-family: "kanit", serif;
-     }
 
      /* Table Centering */ 
 
@@ -127,9 +94,28 @@ body {
       color: #fff;
      }
 
-}
+     tr {
+      border-bottom: 1pt solid black;
+     }
+
+/* } */
 
  
+/* button styling */ 
 
+#btn1 {
+   color: #2f4b62;
+   position: absolute;
+   /* left: 72.5%;
+   top: 71%;
+   height:40px;
+   width:60px; */
+   cursor: pointer;
+
+}
+
+#btn1:hover {
+   color: red;
+} 
 
  /* VW = Viewport Width */ 
