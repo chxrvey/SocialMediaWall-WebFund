@@ -16,28 +16,6 @@ function addRow() {
 
 /* API data */ 
 
-let JSONonstipe = [{
-    "stipe": {
-        "id":"6807",
-        "name":"chxrvey"
-    },
-    "posts": [
-        {
-            "source":{
-                "id":"",
-                "name":"csgo",
-                "network":"Twitter"
-            },
-            "id":"",
-            "created_at":"",
-            "link":"",
-            "image_url":"",
-            "video_url":""
-        }
-    ]
-}];
-
-
 /* converting the API Data to Javascript */ 
 
 // let JSONString = JSON.stringify(JSONonstipe)

@@ -3,7 +3,7 @@
 /* Main Body Styling */
 
 body {
-   background-color: #fff;
+   background-image: url(icons/background_table.png);
    width: auto;
  }
 
@@ -24,13 +24,14 @@ body {
     /*Social Media Block One */ 
     
      #Square_SM1 {
-        background-color: whitesmoke;
+        background-color: grey;
         height: 600px; 
         width: auto;
         position: absolute;
         margin-left: 10px;
         border-radius: 10px;
         box-shadow: 0 0 15px 10px grey;
+        fill-opacity: 50%;
      }
     
      #text_1 {
@@ -54,14 +55,14 @@ body {
         padding: 20px;
         font-family: "kanit", serif;
         font-size: 30px;
-        color: black;
-        text-shadow: 0 0 10px grey;
+        color: whitesmoke;
+        text-shadow: 0 0 10px black;
     }
     
     /*Social Media Block One */ 
-    
+
       #Square_SM1 {
-        background-color: whitesmoke;
+        background-color: #333232;
         height: 600px; 
         width: 600px;
         margin:auto;
@@ -69,7 +70,7 @@ body {
         left:50%;
         right:50%;*/
         border-radius: 10px;
-        box-shadow: 0 0 15px 10px grey;
+        box-shadow: 0 0 15px 10px black;
      }
     
      #text_1 {
@@ -80,42 +81,61 @@ body {
       font-family: "kanit", serif;
    }
   
-    
-
-    
-
      /* Table Centering */ 
 
      table {
       margin: auto;
+      font-family:"kanit", serif;
      }
 
-     td {
-      color: #fff;
-     }
 
-     tr {
-      border-bottom: 1pt solid black;
-     }
+/* Table Design */ 
 
-/* } */
+td {
+   color: white;
+   height: 50px;
+   width: 50px;
+   align-content: center;
+   text-align: center;
+   }
 
+th {
+   color: white;
+   height: 50px;
+   width: 140px;
+   background: grey;
+}
+
+tr {
+  align-content: center;
+  background-color: darkgrey;
+}
+
+tr:hover {
+   background-color: #2f4b62;
+}
  
 /* button styling */ 
 
-#btn1 {
-   color: #2f4b62;
-   position: absolute;
-   /* left: 72.5%;
-   top: 71%;
+button {
+   font-family:"kanit", serif;
+   position: relative;
+   left:250px;
+   top: 400px;
    height:40px;
-   width:60px; */
-   cursor: pointer;
-
+   width: 120px;
+   border: 0px solid;
+   border-radius: 10px;
+   background-color: darkgrey;
 }
 
-#btn1:hover {
-   color: red;
-} 
+button:hover {
+   background-color: grey;
+}
+
+bold {
+   color: white;
+   font-size: 16px;
+}
 
  /* VW = Viewport Width */ 
