@@ -34,7 +34,7 @@
 
 // 03-01-2023 // 
 
-const url = "https://www.7timer.info/bin/astro.php?lon=113.2&lat=23.1&ac=0&unit=metric&output=json&tzshift=0";
+const url = "https://onstipe.com/web/api/json/7160?key=70a658727d82593172480508f96f72a7";
 // Line is a constant variable that never changes called 'URL' and its directed at that link //
 fetch(url)
   .then((info) => info.json())
@@ -42,8 +42,8 @@ fetch(url)
   .then((data) => {
     // Created a new data fucntion converted from the info.json that is awaitng the promise from the line above//
 
-    var array = data['dataseries'];
-
+    var array = data['posts'];
+console.log(data)
     // Get a reference to the table element
     var table = document.getElementById("myTable");
 
@@ -54,17 +54,22 @@ fetch(url)
 
       // Insert a new cell into the row
       var cell = row.insertCell(-1);
-      cell.innerHTML =
-        'timepoint: ' + array[i].timepoint + '<br>' +
-        'cloudcover: ' + array[i].cloudcover + '<br>' +
-        'transparency: ' + array[i].transparency + '<br>'+
-        'temp2m ' + array[i].temp2m + '<br>';
-
+    
+      cell.innerHTML +=
+        ' ' + array[i].author_name + '<br>' +
+        ' ' + array[i].author_username + '<br>'+
+        ' ' + array[i].description + '<br>' 
+        // '' + array[i].image_url;
+        var img = document.createElement('img');
+        img.src = array[i].image_url;
+        
+        cell.appendChild(img);
         
     }
 
     console.log(data);
   });
+
 
 
 

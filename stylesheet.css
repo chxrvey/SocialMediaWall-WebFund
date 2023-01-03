@@ -9,45 +9,6 @@ body {
 p {
    color: #fff
 }
- /* Tablet screen Optimised */ 
-
-@media screen and (min-width: 1200px) and (max-width: 1500px) {
-
-    
-    h2 {
-        text-align: center;
-        padding: 20px;
-        font-family: "kanit", serif;
-        font-size: 30px;
-        color: Black;
-        text-shadow: 0 0 10px grey;
-    }
-    
-    /*Social Media Block One */ 
-    
-     #Square_SM1 {
-      overflow: auto;
-        background-color: grey;
-        height: 600px; 
-        width: auto;
-        position: absolute;
-        margin-left: 10px;
-        border-radius: 10px;
-        box-shadow: 0 0 15px 10px grey;
-        fill-opacity: 50%;
-     }
-    
-     #text_1 {
-        position: absolute;
-        top: 540px;
-        left: 15px;
-        color: black;
-        font-family: "kanit", serif;
-     }
-    
-
-}
-
 /* Nomral Monitor Optimisation */ 
 
 @media screen and (min-width: 1500px) and (max-width:2000px) {
@@ -65,10 +26,10 @@ p {
     /*Social Media Block One */ 
 
       #Square_SM1 {
-         overflow:auto;
+         overflow: auto;
         background-color: #333232;
-        height: 600px; 
-        width: 600px;
+        height: 1000px; 
+        width: 1350px;
         margin:auto;
         /* position: fixed;
         left:50%;
@@ -90,17 +51,23 @@ p {
      table {
       margin: auto;
       font-family:"kanit", serif;
+      font-size: 16px;
      }
 
+     img {
+      height: auto;
+      width:auto;
+     }
 
 /* Table Design */ 
 
 td {
    color: black;
    height: 50px;
-   width: 300px;
+   width: 600px;
    align-content: center;
    text-align: center;
+   border-radius: 10px;
    }
 
  td:hover {
@@ -118,7 +85,7 @@ tr {
   align-content: center;
   background-color: white;
   height: auto;
-  width: 500px;
+  width: 400px;
 }
 
  
